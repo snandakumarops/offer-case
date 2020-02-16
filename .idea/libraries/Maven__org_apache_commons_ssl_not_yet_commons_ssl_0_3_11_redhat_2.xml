@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.apache.commons.ssl:not-yet-commons-ssl:0.3.11-redhat-2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/ssl/not-yet-commons-ssl/0.3.11-redhat-2/not-yet-commons-ssl-0.3.11-redhat-2.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/ssl/not-yet-commons-ssl/0.3.11-redhat-2/not-yet-commons-ssl-0.3.11-redhat-2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/commons/ssl/not-yet-commons-ssl/0.3.11-redhat-2/not-yet-commons-ssl-0.3.11-redhat-2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
