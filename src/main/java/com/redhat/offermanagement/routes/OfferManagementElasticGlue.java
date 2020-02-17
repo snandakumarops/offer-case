@@ -54,8 +54,9 @@ public class OfferManagementElasticGlue extends RouteBuilder {
 					+ consumerMaxPollRecords + "&consumersCount=" + consumerCount + "&seekTo=" + consumerSeekTo
 					+ "&groupId=" + consumerGroup
 			)
-					.log("${body}")
+
 					.bean(Transformer.class,"txnTransform")
+					.log("${body}")
 					.setHeader("Authorization",simple("Basic cGFtQWRtaW46cmVkaGF0cGFtMSE="))
 					.to("rest:post:/services/rest/server/containers/OfferMgmtCase_1.0.0-SNAPSHOT/cases/DisputeMgmtCase.OfferManagementCase/instances?host=" + System.getenv("bcurl") + "&produces=application/json");;
 
