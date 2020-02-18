@@ -40,7 +40,7 @@ public class OfferManagementElasticGlue extends RouteBuilder {
 	private String offerTopic = "offer-output";
 	private String consumerMaxPollRecords = "500";
 	private String consumerCount = "1";
-	private String consumerSeekTo = "end";
+	private String consumerSeekTo = "beginning";
 	private String consumerGroup = "case-glue";
 
 
