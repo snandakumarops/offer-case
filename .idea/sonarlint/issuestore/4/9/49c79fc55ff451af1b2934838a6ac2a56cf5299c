@@ -1,0 +1,30 @@
+
+Fsquid:EmptyStatementUsageCheck<"Remove this empty statement.(‡®¨˜
+Csquid:S1068%"'Remove this unused "LOG" private field.(ùá‰‡üÿÿÿÿ
+¥squid:S1845%"ˆRename field "LOG" to prevent any misunderstanding/clash with field "log" defined in superclass "org.apache.camel.builder.RouteBuilder".(ùá‰‡üÿÿÿÿ
+csquid:UselessImportCheck"@Remove this unused import 'org.elasticsearch.client.RestClient'.(ìþÇT
+Ysquid:UselessImportCheck"5Remove this unused import 'javax.net.ssl.SSLContext'.(ˆœ¤ë
+…squid:UselessImportCheck"\Remove this unused import 'org.apache.camel.component.elasticsearch.ElasticsearchComponent'.(¦´Üúúÿÿÿÿ
+nsquid:UselessImportCheck"JRemove this unused import 'org.apache.camel.util.jsse.KeyStoreParameters'.(ò±Ð˜
+psquid:UselessImportCheck"GRemove this unused import 'org.elasticsearch.client.RestClientBuilder'.(¥‹»ôùÿÿÿÿ
+usquid:UselessImportCheck"LRemove this unused import 'org.apache.camel.component.kafka.KafkaComponent'.(Íä‹ëþÿÿÿÿ
+usquid:UselessImportCheck"LRemove this unused import 'org.apache.camel.util.jsse.SSLContextParameters'.(ÿ§ÂÎüÿÿÿÿ
+zsquid:UselessImportCheck"QRemove this unused import 'org.apache.http.impl.client.BasicCredentialsProvider'.(Çÿ‘”ÿÿÿÿÿ
+`squid:UselessImportCheck"<Remove this unused import 'org.apache.http.ssl.SSLContexts'.(¶Ê§¡
+vsquid:UselessImportCheck"MRemove this unused import 'org.apache.http.nio.conn.SchemeIOSessionStrategy'.(ˆéÆ¹þÿÿÿÿ
+Vsquid:UselessImportCheck "3Remove this unused import 'java.security.KeyStore'.(ïººW
+Xsquid:UselessImportCheck"4Remove this unused import 'java.io.FileInputStream'.(˜³ÉÓ
+rsquid:UselessImportCheck"IRemove this unused import 'org.elasticsearch.client.RestHighLevelClient'.(û˜Ò›úÿÿÿÿ
+fsquid:UselessImportCheck"BRemove this unused import 'org.apache.http.ssl.SSLContextBuilder'.(ƒž ­
+tsquid:UselessImportCheck"KRemove this unused import 'org.apache.camel.component.http4.HttpComponent'.(±€êÎøÿÿÿÿ
+Msquid:UselessImportCheck")Remove this unused import 'java.io.File'.(†Ð¥Å
+psquid:UselessImportCheck"MRemove this unused import 'org.apache.http.auth.UsernamePasswordCredentials'.(°Š×V
+nsquid:UselessImportCheck"JRemove this unused import 'org.apache.http.client.AuthenticationStrategy'.(®î¡‡
+wsquid:UselessImportCheck"SRemove this unused import 'org.apache.http.impl.nio.client.HttpAsyncClientBuilder'.(ÏßÑç
+_squid:UselessImportCheck";Remove this unused import 'org.apache.http.auth.AuthScope'.(þàýœ
+ksquid:UselessImportCheck"GRemove this unused import 'org.apache.http.client.CredentialsProvider'.(“éÚ¹
+ssquid:UselessImportCheck	"ORemove this unused import 'org.apache.camel.util.jsse.TrustManagersParameters'.(‹¿ƒª
+Ysquid:UselessImportCheck
+"5Remove this unused import 'org.apache.http.HttpHost'.(õÑ‰¯
+Tsquid:UselessImportCheck"0Remove this unused import 'java.io.InputStream'.(¹»º
+?squid:S1148@"#Use a logger to log this exception.(€ÉÔ…ýÿÿÿÿ

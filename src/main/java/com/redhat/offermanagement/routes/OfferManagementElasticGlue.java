@@ -43,7 +43,6 @@ public class OfferManagementElasticGlue extends RouteBuilder {
 	private String consumerSeekTo = "beginning";
 	private String consumerGroup = "case-glue";
 
-
 	@Override
 	public void configure() throws Exception {
 		try {
