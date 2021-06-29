@@ -30,7 +30,7 @@ public class OfferManagementElasticGlue extends RouteBuilder {
 
 					.bean(Transformer.class,"txnTransform")
 					.log("${body}")
-					.setHeader("Authorization",simple("Basic cGFtQWRtaW46cmVkaGF0cGFtMSE="))
+					.setHeader("Authorization",simple("Basic YWRtaW5Vc2VyOnJlZGhhdHBhbTEh"))
 					.to("rest:post:/services/rest/server/containers/OfferMgmtCase_1.0.0-SNAPSHOT/cases/DisputeMgmtCase.OfferManagementCase/instances?host=" + System.getenv("bcurl") + "&produces=application/json");;
 
 
